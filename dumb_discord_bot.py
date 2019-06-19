@@ -20,7 +20,7 @@ async def on_ready():
 @client.event
 async def on_message(message):
     printMessage(message)
-    if message.content.startswith('hot'):
+    if 'hot' in message.content:
         channel = message.channel
         await channel.send('HOT STUFF IS COMING')
     if message.content.startswith("!save-template"):

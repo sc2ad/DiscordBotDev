@@ -1,0 +1,11 @@
+
+{
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "/*.server.json"
+            ],
+            "url": "./template_server_schema.json"
+        }
+    ]
+}

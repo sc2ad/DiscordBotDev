@@ -12,7 +12,7 @@ async def on_ready():
 @client.event
 async def on_message(message):
     print(message.content)
-    if message.content.startswith('hot'):
+    if 'hot' in message.content:
         channel = message.channel
         await channel.send('HOT STUFF IS COMING')
 

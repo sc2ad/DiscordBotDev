@@ -1,0 +1,3115 @@
+{
+    "serverName": "SUMMER CVRE",
+    "roles": [
+        {
+            "name": "@everyone",
+            "permissions": [
+                {
+                    "permissionName": "add_reactions",
+                    "allow": true
+                },
+                {
+                    "permissionName": "administrator",
+                    "allow": false
+                },
+                {
+                    "permissionName": "attach_files",
+                    "allow": true
+                },
+                {
+                    "permissionName": "ban_members",
+                    "allow": false
+                },
+                {
+                    "permissionName": "change_nickname",
+                    "allow": true
+                },
+                {
+                    "permissionName": "connect",
+                    "allow": true
+                },
+                {
+                    "permissionName": "create_instant_invite",
+                    "allow": true
+                },
+                {
+                    "permissionName": "deafen_members",
+                    "allow": false
+                },
+                {
+                    "permissionName": "embed_links",
+                    "allow": true
+                },
+                {
+                    "permissionName": "external_emojis",
+                    "allow": true
+                },
+                {
+                    "permissionName": "kick_members",
+                    "allow": false
+                },
+                {
+                    "permissionName": "manage_channels",
+                    "allow": false
+                },
+                {
+                    "permissionName": "manage_emojis",
+                    "allow": false
+                },
+                {
+                    "permissionName": "manage_guild",
+                    "allow": false
+                },
+                {
+                    "permissionName": "manage_messages",
+                    "allow": false
+                },
+                {
+                    "permissionName": "manage_nicknames",
+                    "allow": false
+                },
+                {
+                    "permissionName": "manage_roles",
+                    "allow": false
+                },
+                {
+                    "permissionName": "manage_webhooks",
+                    "allow": false
+                },
+                {
+                    "permissionName": "mention_everyone",
+                    "allow": true
+                },
+                {
+                    "permissionName": "move_members",
+                    "allow": false
+                },
+                {
+                    "permissionName": "mute_members",
+                    "allow": false
+                },
+                {
+                    "permissionName": "priority_speaker",
+                    "allow": false
+                },
+                {
+                    "permissionName": "read_message_history",
+                    "allow": true
+                },
+                {
+                    "permissionName": "read_messages",
+                    "allow": true
+                },
+                {
+                    "permissionName": "send_messages",
+                    "allow": true
+                },
+                {
+                    "permissionName": "send_tts_messages",
+                    "allow": true
+                },
+                {
+                    "permissionName": "speak",
+                    "allow": true
+                },
+                {
+                    "permissionName": "stream",
+                    "allow": true
+                },
+                {
+                    "permissionName": "use_voice_activation",
+                    "allow": true
+                },
+                {
+                    "permissionName": "view_audit_log",
+                    "allow": false
+                }
+            ],
+            "settings": {
+                "color": [
+                    0,
+                    0,
+                    0
+                ],
+                "mention": false,
+                "displaySeparate": false
+            }
+        },
+        {
+            "name": "Competitor",
+            "permissions": [
+                {
+                    "permissionName": "add_reactions",
+                    "allow": true
+                },
+                {
+                    "permissionName": "administrator",
+                    "allow": false
+                },
+                {
+                    "permissionName": "attach_files",
+                    "allow": true
+                },
+                {
+                    "permissionName": "ban_members",
+                    "allow": false
+                },
+                {
+                    "permissionName": "change_nickname",
+                    "allow": true
+                },
+                {
+                    "permissionName": "connect",
+                    "allow": true
+                },
+                {
+                    "permissionName": "create_instant_invite",
+                    "allow": false
+                },
+                {
+                    "permissionName": "deafen_members",
+                    "allow": false
+                },
+                {
+                    "permissionName": "embed_links",
+                    "allow": true
+                },
+                {
+                    "permissionName": "external_emojis",
+                    "allow": true
+                },
+                {
+                    "permissionName": "kick_members",
+                    "allow": false
+                },
+                {
+                    "permissionName": "manage_channels",
+                    "allow": false
+                },
+                {
+                    "permissionName": "manage_emojis",
+                    "allow": false
+                },
+                {
+                    "permissionName": "manage_guild",
+                    "allow": false
+                },
+                {
+                    "permissionName": "manage_messages",
+                    "allow": false
+                },
+                {
+                    "permissionName": "manage_nicknames",
+                    "allow": false
+                },
+                {
+                    "permissionName": "manage_roles",
+                    "allow": false
+                },
+                {
+                    "permissionName": "manage_webhooks",
+                    "allow": false
+                },
+                {
+                    "permissionName": "mention_everyone",
+                    "allow": false
+                },
+                {
+                    "permissionName": "move_members",
+                    "allow": false
+                },
+                {
+                    "permissionName": "mute_members",
+                    "allow": false
+                },
+                {
+                    "permissionName": "priority_speaker",
+                    "allow": false
+                },
+                {
+                    "permissionName": "read_message_history",
+                    "allow": true
+                },
+                {
+                    "permissionName": "read_messages",
+                    "allow": false
+                },
+                {
+                    "permissionName": "send_messages",
+                    "allow": true
+                },
+                {
+                    "permissionName": "send_tts_messages",
+                    "allow": false
+                },
+                {
+                    "permissionName": "speak",
+                    "allow": true
+                },
+                {
+                    "permissionName": "stream",
+                    "allow": true
+                },
+                {
+                    "permissionName": "use_voice_activation",
+                    "allow": true
+                },
+                {
+                    "permissionName": "view_audit_log",
+                    "allow": false
+                }
+            ],
+            "settings": {
+                "color": [
+                    119,
+                    7,
+                    122
+                ],
+                "mention": true,
+                "displaySeparate": true
+            }
+        },
+        {
+            "name": "Coordinator",
+            "permissions": [
+                {
+                    "permissionName": "add_reactions",
+                    "allow": true
+                },
+                {
+                    "permissionName": "administrator",
+                    "allow": false
+                },
+                {
+                    "permissionName": "attach_files",
+                    "allow": true
+                },
+                {
+                    "permissionName": "ban_members",
+                    "allow": false
+                },
+                {
+                    "permissionName": "change_nickname",
+                    "allow": true
+                },
+                {
+                    "permissionName": "connect",
+                    "allow": true
+                },
+                {
+                    "permissionName": "create_instant_invite",
+                    "allow": false
+                },
+                {
+                    "permissionName": "deafen_members",
+                    "allow": true
+                },
+                {
+                    "permissionName": "embed_links",
+                    "allow": true
+                },
+                {
+                    "permissionName": "external_emojis",
+                    "allow": true
+                },
+                {
+                    "permissionName": "kick_members",
+                    "allow": false
+                },
+                {
+                    "permissionName": "manage_channels",
+                    "allow": false
+                },
+                {
+                    "permissionName": "manage_emojis",
+                    "allow": false
+                },
+                {
+                    "permissionName": "manage_guild",
+                    "allow": false
+                },
+                {
+                    "permissionName": "manage_messages",
+                    "allow": false
+                },
+                {
+                    "permissionName": "manage_nicknames",
+                    "allow": false
+                },
+                {
+                    "permissionName": "manage_roles",
+                    "allow": true
+                },
+                {
+                    "permissionName": "manage_webhooks",
+                    "allow": false
+                },
+                {
+                    "permissionName": "mention_everyone",
+                    "allow": false
+                },
+                {
+                    "permissionName": "move_members",
+                    "allow": true
+                },
+                {
+                    "permissionName": "mute_members",
+                    "allow": true
+                },
+                {
+                    "permissionName": "priority_speaker",
+                    "allow": false
+                },
+                {
+                    "permissionName": "read_message_history",
+                    "allow": true
+                },
+                {
+                    "permissionName": "read_messages",
+                    "allow": false
+                },
+                {
+                    "permissionName": "send_messages",
+                    "allow": true
+                },
+                {
+                    "permissionName": "send_tts_messages",
+                    "allow": false
+                },
+                {
+                    "permissionName": "speak",
+                    "allow": true
+                },
+                {
+                    "permissionName": "stream",
+                    "allow": true
+                },
+                {
+                    "permissionName": "use_voice_activation",
+                    "allow": true
+                },
+                {
+                    "permissionName": "view_audit_log",
+                    "allow": false
+                }
+            ],
+            "settings": {
+                "color": [
+                    230,
+                    126,
+                    34
+                ],
+                "mention": true,
+                "displaySeparate": true
+            }
+        },
+        {
+            "name": "Caster",
+            "permissions": [
+                {
+                    "permissionName": "add_reactions",
+                    "allow": true
+                },
+                {
+                    "permissionName": "administrator",
+                    "allow": false
+                },
+                {
+                    "permissionName": "attach_files",
+                    "allow": true
+                },
+                {
+                    "permissionName": "ban_members",
+                    "allow": false
+                },
+                {
+                    "permissionName": "change_nickname",
+                    "allow": true
+                },
+                {
+                    "permissionName": "connect",
+                    "allow": true
+                },
+                {
+                    "permissionName": "create_instant_invite",
+                    "allow": false
+                },
+                {
+                    "permissionName": "deafen_members",
+                    "allow": false
+                },
+                {
+                    "permissionName": "embed_links",
+                    "allow": true
+                },
+                {
+                    "permissionName": "external_emojis",
+                    "allow": true
+                },
+                {
+                    "permissionName": "kick_members",
+                    "allow": false
+                },
+                {
+                    "permissionName": "manage_channels",
+                    "allow": false
+                },
+                {
+                    "permissionName": "manage_emojis",
+                    "allow": false
+                },
+                {
+                    "permissionName": "manage_guild",
+                    "allow": false
+                },
+                {
+                    "permissionName": "manage_messages",
+                    "allow": false
+                },
+                {
+                    "permissionName": "manage_nicknames",
+                    "allow": false
+                },
+                {
+                    "permissionName": "manage_roles",
+                    "allow": false
+                },
+                {
+                    "permissionName": "manage_webhooks",
+                    "allow": false
+                },
+                {
+                    "permissionName": "mention_everyone",
+                    "allow": false
+                },
+                {
+                    "permissionName": "move_members",
+                    "allow": false
+                },
+                {
+                    "permissionName": "mute_members",
+                    "allow": false
+                },
+                {
+                    "permissionName": "priority_speaker",
+                    "allow": false
+                },
+                {
+                    "permissionName": "read_message_history",
+                    "allow": true
+                },
+                {
+                    "permissionName": "read_messages",
+                    "allow": false
+                },
+                {
+                    "permissionName": "send_messages",
+                    "allow": true
+                },
+                {
+                    "permissionName": "send_tts_messages",
+                    "allow": true
+                },
+                {
+                    "permissionName": "speak",
+                    "allow": true
+                },
+                {
+                    "permissionName": "stream",
+                    "allow": true
+                },
+                {
+                    "permissionName": "use_voice_activation",
+                    "allow": true
+                },
+                {
+                    "permissionName": "view_audit_log",
+                    "allow": false
+                }
+            ],
+            "settings": {
+                "color": [
+                    5,
+                    17,
+                    124
+                ],
+                "mention": true,
+                "displaySeparate": true
+            }
+        },
+        {
+            "name": "Staff",
+            "permissions": [
+                {
+                    "permissionName": "add_reactions",
+                    "allow": true
+                },
+                {
+                    "permissionName": "administrator",
+                    "allow": false
+                },
+                {
+                    "permissionName": "attach_files",
+                    "allow": true
+                },
+                {
+                    "permissionName": "ban_members",
+                    "allow": true
+                },
+                {
+                    "permissionName": "change_nickname",
+                    "allow": true
+                },
+                {
+                    "permissionName": "connect",
+                    "allow": true
+                },
+                {
+                    "permissionName": "create_instant_invite",
+                    "allow": false
+                },
+                {
+                    "permissionName": "deafen_members",
+                    "allow": true
+                },
+                {
+                    "permissionName": "embed_links",
+                    "allow": true
+                },
+                {
+                    "permissionName": "external_emojis",
+                    "allow": true
+                },
+                {
+                    "permissionName": "kick_members",
+                    "allow": true
+                },
+                {
+                    "permissionName": "manage_channels",
+                    "allow": true
+                },
+                {
+                    "permissionName": "manage_emojis",
+                    "allow": true
+                },
+                {
+                    "permissionName": "manage_guild",
+                    "allow": true
+                },
+                {
+                    "permissionName": "manage_messages",
+                    "allow": true
+                },
+                {
+                    "permissionName": "manage_nicknames",
+                    "allow": true
+                },
+                {
+                    "permissionName": "manage_roles",
+                    "allow": true
+                },
+                {
+                    "permissionName": "manage_webhooks",
+                    "allow": true
+                },
+                {
+                    "permissionName": "mention_everyone",
+                    "allow": true
+                },
+                {
+                    "permissionName": "move_members",
+                    "allow": true
+                },
+                {
+                    "permissionName": "mute_members",
+                    "allow": true
+                },
+                {
+                    "permissionName": "priority_speaker",
+                    "allow": false
+                },
+                {
+                    "permissionName": "read_message_history",
+                    "allow": true
+                },
+                {
+                    "permissionName": "read_messages",
+                    "allow": true
+                },
+                {
+                    "permissionName": "send_messages",
+                    "allow": true
+                },
+                {
+                    "permissionName": "send_tts_messages",
+                    "allow": false
+                },
+                {
+                    "permissionName": "speak",
+                    "allow": true
+                },
+                {
+                    "permissionName": "stream",
+                    "allow": true
+                },
+                {
+                    "permissionName": "use_voice_activation",
+                    "allow": true
+                },
+                {
+                    "permissionName": "view_audit_log",
+                    "allow": true
+                }
+            ],
+            "settings": {
+                "color": [
+                    245,
+                    102,
+                    130
+                ],
+                "mention": true,
+                "displaySeparate": true
+            }
+        },
+        {
+            "name": "Map-Pool",
+            "permissions": [
+                {
+                    "permissionName": "add_reactions",
+                    "allow": true
+                },
+                {
+                    "permissionName": "administrator",
+                    "allow": false
+                },
+                {
+                    "permissionName": "attach_files",
+                    "allow": true
+                },
+                {
+                    "permissionName": "ban_members",
+                    "allow": false
+                },
+                {
+                    "permissionName": "change_nickname",
+                    "allow": true
+                },
+                {
+                    "permissionName": "connect",
+                    "allow": true
+                },
+                {
+                    "permissionName": "create_instant_invite",
+                    "allow": false
+                },
+                {
+                    "permissionName": "deafen_members",
+                    "allow": false
+                },
+                {
+                    "permissionName": "embed_links",
+                    "allow": true
+                },
+                {
+                    "permissionName": "external_emojis",
+                    "allow": true
+                },
+                {
+                    "permissionName": "kick_members",
+                    "allow": false
+                },
+                {
+                    "permissionName": "manage_channels",
+                    "allow": false
+                },
+                {
+                    "permissionName": "manage_emojis",
+                    "allow": false
+                },
+                {
+                    "permissionName": "manage_guild",
+                    "allow": false
+                },
+                {
+                    "permissionName": "manage_messages",
+                    "allow": false
+                },
+                {
+                    "permissionName": "manage_nicknames",
+                    "allow": false
+                },
+                {
+                    "permissionName": "manage_roles",
+                    "allow": false
+                },
+                {
+                    "permissionName": "manage_webhooks",
+                    "allow": false
+                },
+                {
+                    "permissionName": "mention_everyone",
+                    "allow": false
+                },
+                {
+                    "permissionName": "move_members",
+                    "allow": false
+                },
+                {
+                    "permissionName": "mute_members",
+                    "allow": false
+                },
+                {
+                    "permissionName": "priority_speaker",
+                    "allow": false
+                },
+                {
+                    "permissionName": "read_message_history",
+                    "allow": true
+                },
+                {
+                    "permissionName": "read_messages",
+                    "allow": false
+                },
+                {
+                    "permissionName": "send_messages",
+                    "allow": true
+                },
+                {
+                    "permissionName": "send_tts_messages",
+                    "allow": false
+                },
+                {
+                    "permissionName": "speak",
+                    "allow": true
+                },
+                {
+                    "permissionName": "stream",
+                    "allow": true
+                },
+                {
+                    "permissionName": "use_voice_activation",
+                    "allow": true
+                },
+                {
+                    "permissionName": "view_audit_log",
+                    "allow": false
+                }
+            ],
+            "settings": {
+                "color": [
+                    245,
+                    102,
+                    130
+                ],
+                "mention": false,
+                "displaySeparate": false
+            }
+        },
+        {
+            "name": "BOT",
+            "permissions": [
+                {
+                    "permissionName": "add_reactions",
+                    "allow": true
+                },
+                {
+                    "permissionName": "administrator",
+                    "allow": true
+                },
+                {
+                    "permissionName": "attach_files",
+                    "allow": true
+                },
+                {
+                    "permissionName": "ban_members",
+                    "allow": false
+                },
+                {
+                    "permissionName": "change_nickname",
+                    "allow": true
+                },
+                {
+                    "permissionName": "connect",
+                    "allow": true
+                },
+                {
+                    "permissionName": "create_instant_invite",
+                    "allow": true
+                },
+                {
+                    "permissionName": "deafen_members",
+                    "allow": false
+                },
+                {
+                    "permissionName": "embed_links",
+                    "allow": true
+                },
+                {
+                    "permissionName": "external_emojis",
+                    "allow": true
+                },
+                {
+                    "permissionName": "kick_members",
+                    "allow": false
+                },
+                {
+                    "permissionName": "manage_channels",
+                    "allow": false
+                },
+                {
+                    "permissionName": "manage_emojis",
+                    "allow": false
+                },
+                {
+                    "permissionName": "manage_guild",
+                    "allow": false
+                },
+                {
+                    "permissionName": "manage_messages",
+                    "allow": false
+                },
+                {
+                    "permissionName": "manage_nicknames",
+                    "allow": false
+                },
+                {
+                    "permissionName": "manage_roles",
+                    "allow": false
+                },
+                {
+                    "permissionName": "manage_webhooks",
+                    "allow": false
+                },
+                {
+                    "permissionName": "mention_everyone",
+                    "allow": true
+                },
+                {
+                    "permissionName": "move_members",
+                    "allow": false
+                },
+                {
+                    "permissionName": "mute_members",
+                    "allow": false
+                },
+                {
+                    "permissionName": "priority_speaker",
+                    "allow": false
+                },
+                {
+                    "permissionName": "read_message_history",
+                    "allow": true
+                },
+                {
+                    "permissionName": "read_messages",
+                    "allow": true
+                },
+                {
+                    "permissionName": "send_messages",
+                    "allow": true
+                },
+                {
+                    "permissionName": "send_tts_messages",
+                    "allow": true
+                },
+                {
+                    "permissionName": "speak",
+                    "allow": true
+                },
+                {
+                    "permissionName": "stream",
+                    "allow": true
+                },
+                {
+                    "permissionName": "use_voice_activation",
+                    "allow": true
+                },
+                {
+                    "permissionName": "view_audit_log",
+                    "allow": false
+                }
+            ],
+            "settings": {
+                "color": [
+                    46,
+                    204,
+                    113
+                ],
+                "mention": false,
+                "displaySeparate": true
+            }
+        },
+        {
+            "name": "Can Assign Staff and Map-Pool",
+            "permissions": [
+                {
+                    "permissionName": "add_reactions",
+                    "allow": false
+                },
+                {
+                    "permissionName": "administrator",
+                    "allow": true
+                },
+                {
+                    "permissionName": "attach_files",
+                    "allow": false
+                },
+                {
+                    "permissionName": "ban_members",
+                    "allow": false
+                },
+                {
+                    "permissionName": "change_nickname",
+                    "allow": true
+                },
+                {
+                    "permissionName": "connect",
+                    "allow": false
+                },
+                {
+                    "permissionName": "create_instant_invite",
+                    "allow": false
+                },
+                {
+                    "permissionName": "deafen_members",
+                    "allow": false
+                },
+                {
+                    "permissionName": "embed_links",
+                    "allow": false
+                },
+                {
+                    "permissionName": "external_emojis",
+                    "allow": false
+                },
+                {
+                    "permissionName": "kick_members",
+                    "allow": false
+                },
+                {
+                    "permissionName": "manage_channels",
+                    "allow": false
+                },
+                {
+                    "permissionName": "manage_emojis",
+                    "allow": false
+                },
+                {
+                    "permissionName": "manage_guild",
+                    "allow": false
+                },
+                {
+                    "permissionName": "manage_messages",
+                    "allow": false
+                },
+                {
+                    "permissionName": "manage_nicknames",
+                    "allow": false
+                },
+                {
+                    "permissionName": "manage_roles",
+                    "allow": true
+                },
+                {
+                    "permissionName": "manage_webhooks",
+                    "allow": false
+                },
+                {
+                    "permissionName": "mention_everyone",
+                    "allow": false
+                },
+                {
+                    "permissionName": "move_members",
+                    "allow": false
+                },
+                {
+                    "permissionName": "mute_members",
+                    "allow": false
+                },
+                {
+                    "permissionName": "priority_speaker",
+                    "allow": false
+                },
+                {
+                    "permissionName": "read_message_history",
+                    "allow": false
+                },
+                {
+                    "permissionName": "read_messages",
+                    "allow": false
+                },
+                {
+                    "permissionName": "send_messages",
+                    "allow": false
+                },
+                {
+                    "permissionName": "send_tts_messages",
+                    "allow": false
+                },
+                {
+                    "permissionName": "speak",
+                    "allow": false
+                },
+                {
+                    "permissionName": "stream",
+                    "allow": true
+                },
+                {
+                    "permissionName": "use_voice_activation",
+                    "allow": false
+                },
+                {
+                    "permissionName": "view_audit_log",
+                    "allow": false
+                }
+            ],
+            "settings": {
+                "color": [
+                    0,
+                    0,
+                    0
+                ],
+                "mention": false,
+                "displaySeparate": false
+            }
+        }
+    ],
+    "categories": [
+        {
+            "name": "TOURNY-STAFF",
+            "type": "category",
+            "nsfw": false,
+            "permissions": [
+                {
+                    "roleName": "@everyone",
+                    "permissions": [
+                        {
+                            "permissionName": "read_messages",
+                            "allow": false
+                        }
+                    ]
+                },
+                {
+                    "roleName": "Staff",
+                    "permissions": [
+                        {
+                            "permissionName": "read_messages",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "send_messages",
+                            "allow": true
+                        }
+                    ]
+                },
+                {
+                    "roleName": "Map-Pool",
+                    "permissions": [
+                        {
+                            "permissionName": "read_messages",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "send_messages",
+                            "allow": true
+                        }
+                    ]
+                },
+                {
+                    "roleName": "Can Assign Staff and Map-Pool",
+                    "permissions": [
+                        {
+                            "permissionName": "read_messages",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "send_messages",
+                            "allow": true
+                        }
+                    ]
+                },
+                {
+                    "roleName": "Coordinator",
+                    "permissions": [
+                        {
+                            "permissionName": "read_messages",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "send_messages",
+                            "allow": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "General",
+            "type": "category",
+            "nsfw": false,
+            "permissions": [
+                {
+                    "roleName": "@everyone",
+                    "permissions": [
+                        {
+                            "permissionName": "read_messages",
+                            "allow": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Tournament Day",
+            "type": "category",
+            "nsfw": false,
+            "permissions": [
+                {
+                    "roleName": "@everyone",
+                    "permissions": [
+                        {
+                            "permissionName": "connect",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "use_voice_activation",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "deafen_members",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "speak",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "mute_members",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "read_messages",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "send_messages",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "move_members",
+                            "allow": false
+                        }
+                    ]
+                },
+                {
+                    "roleName": "Competitor",
+                    "permissions": [
+                        {
+                            "permissionName": "connect",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "use_voice_activation",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "speak",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "send_messages",
+                            "allow": true
+                        }
+                    ]
+                },
+                {
+                    "roleName": "Can Assign Staff and Map-Pool",
+                    "permissions": []
+                },
+                {
+                    "roleName": "Coordinator",
+                    "permissions": [
+                        {
+                            "permissionName": "use_voice_activation",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "deafen_members",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "mute_members",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "move_members",
+                            "allow": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "textChannels": [
+        {
+            "name": "staff-info",
+            "topic": "",
+            "position": 0,
+            "nsfw": false,
+            "slowmode_delay": 0,
+            "permissions": [
+                {
+                    "roleName": "@everyone",
+                    "permissions": [
+                        {
+                            "permissionName": "read_messages",
+                            "allow": false
+                        }
+                    ]
+                },
+                {
+                    "roleName": "Staff",
+                    "permissions": [
+                        {
+                            "permissionName": "read_messages",
+                            "allow": true
+                        }
+                    ]
+                },
+                {
+                    "roleName": "Map-Pool",
+                    "permissions": [
+                        {
+                            "permissionName": "read_messages",
+                            "allow": true
+                        }
+                    ]
+                },
+                {
+                    "roleName": "Can Assign Staff and Map-Pool",
+                    "permissions": [
+                        {
+                            "permissionName": "read_messages",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "send_messages",
+                            "allow": true
+                        }
+                    ]
+                },
+                {
+                    "roleName": "Coordinator",
+                    "permissions": [
+                        {
+                            "permissionName": "read_messages",
+                            "allow": true
+                        }
+                    ]
+                }
+            ],
+            "categoryName": "TOURNY-STAFF"
+        },
+        {
+            "name": "main-staff",
+            "topic": null,
+            "position": 1,
+            "nsfw": false,
+            "slowmode_delay": 0,
+            "permissions": [
+                {
+                    "roleName": "@everyone",
+                    "permissions": [
+                        {
+                            "permissionName": "read_messages",
+                            "allow": false
+                        }
+                    ]
+                },
+                {
+                    "roleName": "Staff",
+                    "permissions": [
+                        {
+                            "permissionName": "read_messages",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "send_messages",
+                            "allow": true
+                        }
+                    ]
+                }
+            ],
+            "categoryName": "TOURNY-STAFF"
+        },
+        {
+            "name": "map-pool-room",
+            "topic": "",
+            "position": 2,
+            "nsfw": false,
+            "slowmode_delay": 0,
+            "permissions": [
+                {
+                    "roleName": "@everyone",
+                    "permissions": [
+                        {
+                            "permissionName": "read_messages",
+                            "allow": false
+                        }
+                    ]
+                },
+                {
+                    "roleName": "Map-Pool",
+                    "permissions": [
+                        {
+                            "permissionName": "read_messages",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "send_messages",
+                            "allow": true
+                        }
+                    ]
+                }
+            ],
+            "categoryName": "TOURNY-STAFF"
+        },
+        {
+            "name": "coordinator-room",
+            "topic": null,
+            "position": 3,
+            "nsfw": false,
+            "slowmode_delay": 0,
+            "permissions": [
+                {
+                    "roleName": "@everyone",
+                    "permissions": [
+                        {
+                            "permissionName": "read_messages",
+                            "allow": false
+                        }
+                    ]
+                },
+                {
+                    "roleName": "Can Assign Staff and Map-Pool",
+                    "permissions": [
+                        {
+                            "permissionName": "read_messages",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "send_messages",
+                            "allow": true
+                        }
+                    ]
+                },
+                {
+                    "roleName": "Coordinator",
+                    "permissions": [
+                        {
+                            "permissionName": "read_messages",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "send_messages",
+                            "allow": true
+                        }
+                    ]
+                }
+            ],
+            "categoryName": "TOURNY-STAFF"
+        },
+        {
+            "name": "all-staff",
+            "topic": "",
+            "position": 4,
+            "nsfw": false,
+            "slowmode_delay": 0,
+            "permissions": [
+                {
+                    "roleName": "@everyone",
+                    "permissions": [
+                        {
+                            "permissionName": "read_messages",
+                            "allow": false
+                        }
+                    ]
+                },
+                {
+                    "roleName": "Staff",
+                    "permissions": [
+                        {
+                            "permissionName": "read_messages",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "send_messages",
+                            "allow": true
+                        }
+                    ]
+                },
+                {
+                    "roleName": "Map-Pool",
+                    "permissions": [
+                        {
+                            "permissionName": "read_messages",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "send_messages",
+                            "allow": true
+                        }
+                    ]
+                },
+                {
+                    "roleName": "Can Assign Staff and Map-Pool",
+                    "permissions": [
+                        {
+                            "permissionName": "read_messages",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "send_messages",
+                            "allow": true
+                        }
+                    ]
+                },
+                {
+                    "roleName": "Coordinator",
+                    "permissions": [
+                        {
+                            "permissionName": "read_messages",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "send_messages",
+                            "allow": true
+                        }
+                    ]
+                }
+            ],
+            "categoryName": "TOURNY-STAFF"
+        },
+        {
+            "name": "info",
+            "topic": null,
+            "position": 5,
+            "nsfw": false,
+            "slowmode_delay": 0,
+            "permissions": [
+                {
+                    "roleName": "@everyone",
+                    "permissions": [
+                        {
+                            "permissionName": "read_messages",
+                            "allow": true
+                        }
+                    ]
+                },
+                {
+                    "roleName": "Staff",
+                    "permissions": [
+                        {
+                            "permissionName": "send_messages",
+                            "allow": true
+                        }
+                    ]
+                }
+            ],
+            "categoryName": "General"
+        },
+        {
+            "name": "general",
+            "topic": null,
+            "position": 6,
+            "nsfw": false,
+            "slowmode_delay": 0,
+            "permissions": [
+                {
+                    "roleName": "@everyone",
+                    "permissions": [
+                        {
+                            "permissionName": "read_messages",
+                            "allow": true
+                        }
+                    ]
+                }
+            ],
+            "categoryName": "General"
+        },
+        {
+            "name": "room-1",
+            "topic": null,
+            "position": 7,
+            "nsfw": false,
+            "slowmode_delay": 0,
+            "permissions": [
+                {
+                    "roleName": "@everyone",
+                    "permissions": [
+                        {
+                            "permissionName": "connect",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "use_voice_activation",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "deafen_members",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "speak",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "mute_members",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "read_messages",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "send_messages",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "move_members",
+                            "allow": false
+                        }
+                    ]
+                },
+                {
+                    "roleName": "Competitor",
+                    "permissions": [
+                        {
+                            "permissionName": "connect",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "use_voice_activation",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "speak",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "send_messages",
+                            "allow": true
+                        }
+                    ]
+                },
+                {
+                    "roleName": "Can Assign Staff and Map-Pool",
+                    "permissions": []
+                },
+                {
+                    "roleName": "Coordinator",
+                    "permissions": [
+                        {
+                            "permissionName": "use_voice_activation",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "deafen_members",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "mute_members",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "move_members",
+                            "allow": true
+                        }
+                    ]
+                }
+            ],
+            "categoryName": "Tournament Day"
+        },
+        {
+            "name": "room-2",
+            "topic": null,
+            "position": 8,
+            "nsfw": false,
+            "slowmode_delay": 0,
+            "permissions": [
+                {
+                    "roleName": "@everyone",
+                    "permissions": [
+                        {
+                            "permissionName": "connect",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "use_voice_activation",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "deafen_members",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "speak",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "mute_members",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "read_messages",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "send_messages",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "move_members",
+                            "allow": false
+                        }
+                    ]
+                },
+                {
+                    "roleName": "Competitor",
+                    "permissions": [
+                        {
+                            "permissionName": "connect",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "use_voice_activation",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "speak",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "send_messages",
+                            "allow": true
+                        }
+                    ]
+                },
+                {
+                    "roleName": "Can Assign Staff and Map-Pool",
+                    "permissions": []
+                },
+                {
+                    "roleName": "Coordinator",
+                    "permissions": [
+                        {
+                            "permissionName": "use_voice_activation",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "deafen_members",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "mute_members",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "move_members",
+                            "allow": true
+                        }
+                    ]
+                }
+            ],
+            "categoryName": "Tournament Day"
+        },
+        {
+            "name": "room-3",
+            "topic": null,
+            "position": 9,
+            "nsfw": false,
+            "slowmode_delay": 0,
+            "permissions": [
+                {
+                    "roleName": "@everyone",
+                    "permissions": [
+                        {
+                            "permissionName": "connect",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "use_voice_activation",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "deafen_members",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "speak",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "mute_members",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "read_messages",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "send_messages",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "move_members",
+                            "allow": false
+                        }
+                    ]
+                },
+                {
+                    "roleName": "Competitor",
+                    "permissions": [
+                        {
+                            "permissionName": "connect",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "use_voice_activation",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "speak",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "send_messages",
+                            "allow": true
+                        }
+                    ]
+                },
+                {
+                    "roleName": "Can Assign Staff and Map-Pool",
+                    "permissions": []
+                },
+                {
+                    "roleName": "Coordinator",
+                    "permissions": [
+                        {
+                            "permissionName": "use_voice_activation",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "deafen_members",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "mute_members",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "move_members",
+                            "allow": true
+                        }
+                    ]
+                }
+            ],
+            "categoryName": "Tournament Day"
+        },
+        {
+            "name": "room-4",
+            "topic": null,
+            "position": 10,
+            "nsfw": false,
+            "slowmode_delay": 0,
+            "permissions": [
+                {
+                    "roleName": "@everyone",
+                    "permissions": [
+                        {
+                            "permissionName": "connect",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "use_voice_activation",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "deafen_members",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "speak",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "mute_members",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "read_messages",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "send_messages",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "move_members",
+                            "allow": false
+                        }
+                    ]
+                },
+                {
+                    "roleName": "Competitor",
+                    "permissions": [
+                        {
+                            "permissionName": "connect",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "use_voice_activation",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "speak",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "send_messages",
+                            "allow": true
+                        }
+                    ]
+                },
+                {
+                    "roleName": "Can Assign Staff and Map-Pool",
+                    "permissions": []
+                },
+                {
+                    "roleName": "Coordinator",
+                    "permissions": [
+                        {
+                            "permissionName": "use_voice_activation",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "deafen_members",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "mute_members",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "move_members",
+                            "allow": true
+                        }
+                    ]
+                }
+            ],
+            "categoryName": "Tournament Day"
+        },
+        {
+            "name": "room-5",
+            "topic": null,
+            "position": 11,
+            "nsfw": false,
+            "slowmode_delay": 0,
+            "permissions": [
+                {
+                    "roleName": "@everyone",
+                    "permissions": [
+                        {
+                            "permissionName": "connect",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "use_voice_activation",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "deafen_members",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "speak",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "mute_members",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "read_messages",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "send_messages",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "move_members",
+                            "allow": false
+                        }
+                    ]
+                },
+                {
+                    "roleName": "Competitor",
+                    "permissions": [
+                        {
+                            "permissionName": "connect",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "use_voice_activation",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "speak",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "send_messages",
+                            "allow": true
+                        }
+                    ]
+                },
+                {
+                    "roleName": "Can Assign Staff and Map-Pool",
+                    "permissions": []
+                },
+                {
+                    "roleName": "Coordinator",
+                    "permissions": [
+                        {
+                            "permissionName": "use_voice_activation",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "deafen_members",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "mute_members",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "move_members",
+                            "allow": true
+                        }
+                    ]
+                }
+            ],
+            "categoryName": "Tournament Day"
+        },
+        {
+            "name": "room-6",
+            "topic": null,
+            "position": 12,
+            "nsfw": false,
+            "slowmode_delay": 0,
+            "permissions": [
+                {
+                    "roleName": "@everyone",
+                    "permissions": [
+                        {
+                            "permissionName": "connect",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "use_voice_activation",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "deafen_members",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "speak",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "mute_members",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "read_messages",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "send_messages",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "move_members",
+                            "allow": false
+                        }
+                    ]
+                },
+                {
+                    "roleName": "Competitor",
+                    "permissions": [
+                        {
+                            "permissionName": "connect",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "use_voice_activation",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "speak",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "send_messages",
+                            "allow": true
+                        }
+                    ]
+                },
+                {
+                    "roleName": "Can Assign Staff and Map-Pool",
+                    "permissions": []
+                },
+                {
+                    "roleName": "Coordinator",
+                    "permissions": [
+                        {
+                            "permissionName": "use_voice_activation",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "deafen_members",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "mute_members",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "move_members",
+                            "allow": true
+                        }
+                    ]
+                }
+            ],
+            "categoryName": "Tournament Day"
+        },
+        {
+            "name": "room-7",
+            "topic": null,
+            "position": 13,
+            "nsfw": false,
+            "slowmode_delay": 0,
+            "permissions": [
+                {
+                    "roleName": "@everyone",
+                    "permissions": [
+                        {
+                            "permissionName": "connect",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "use_voice_activation",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "deafen_members",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "speak",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "mute_members",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "read_messages",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "send_messages",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "move_members",
+                            "allow": false
+                        }
+                    ]
+                },
+                {
+                    "roleName": "Competitor",
+                    "permissions": [
+                        {
+                            "permissionName": "connect",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "use_voice_activation",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "speak",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "send_messages",
+                            "allow": true
+                        }
+                    ]
+                },
+                {
+                    "roleName": "Can Assign Staff and Map-Pool",
+                    "permissions": []
+                },
+                {
+                    "roleName": "Coordinator",
+                    "permissions": [
+                        {
+                            "permissionName": "use_voice_activation",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "deafen_members",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "mute_members",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "move_members",
+                            "allow": true
+                        }
+                    ]
+                }
+            ],
+            "categoryName": "Tournament Day"
+        },
+        {
+            "name": "room-8",
+            "topic": null,
+            "position": 14,
+            "nsfw": false,
+            "slowmode_delay": 0,
+            "permissions": [
+                {
+                    "roleName": "@everyone",
+                    "permissions": [
+                        {
+                            "permissionName": "connect",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "use_voice_activation",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "deafen_members",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "speak",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "mute_members",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "read_messages",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "send_messages",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "move_members",
+                            "allow": false
+                        }
+                    ]
+                },
+                {
+                    "roleName": "Competitor",
+                    "permissions": [
+                        {
+                            "permissionName": "connect",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "use_voice_activation",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "speak",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "send_messages",
+                            "allow": true
+                        }
+                    ]
+                },
+                {
+                    "roleName": "Can Assign Staff and Map-Pool",
+                    "permissions": []
+                },
+                {
+                    "roleName": "Coordinator",
+                    "permissions": [
+                        {
+                            "permissionName": "use_voice_activation",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "deafen_members",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "mute_members",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "move_members",
+                            "allow": true
+                        }
+                    ]
+                }
+            ],
+            "categoryName": "Tournament Day"
+        }
+    ],
+    "voiceChannels": [
+        {
+            "name": "Waiting Room",
+            "position": 0,
+            "bitrate": 64000,
+            "user_limit": 0,
+            "permissions": [
+                {
+                    "roleName": "@everyone",
+                    "permissions": [
+                        {
+                            "permissionName": "connect",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "use_voice_activation",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "deafen_members",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "speak",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "mute_members",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "read_messages",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "send_messages",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "move_members",
+                            "allow": false
+                        }
+                    ]
+                },
+                {
+                    "roleName": "Competitor",
+                    "permissions": [
+                        {
+                            "permissionName": "connect",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "use_voice_activation",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "speak",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "send_messages",
+                            "allow": true
+                        }
+                    ]
+                },
+                {
+                    "roleName": "Can Assign Staff and Map-Pool",
+                    "permissions": []
+                },
+                {
+                    "roleName": "Coordinator",
+                    "permissions": [
+                        {
+                            "permissionName": "use_voice_activation",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "deafen_members",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "mute_members",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "move_members",
+                            "allow": true
+                        }
+                    ]
+                }
+            ],
+            "categoryName": "Tournament Day"
+        },
+        {
+            "name": "Room 1",
+            "position": 1,
+            "bitrate": 64000,
+            "user_limit": 0,
+            "permissions": [
+                {
+                    "roleName": "@everyone",
+                    "permissions": [
+                        {
+                            "permissionName": "connect",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "use_voice_activation",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "deafen_members",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "speak",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "mute_members",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "read_messages",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "send_messages",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "move_members",
+                            "allow": false
+                        }
+                    ]
+                },
+                {
+                    "roleName": "Competitor",
+                    "permissions": [
+                        {
+                            "permissionName": "connect",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "use_voice_activation",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "speak",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "send_messages",
+                            "allow": true
+                        }
+                    ]
+                },
+                {
+                    "roleName": "Can Assign Staff and Map-Pool",
+                    "permissions": []
+                },
+                {
+                    "roleName": "Coordinator",
+                    "permissions": [
+                        {
+                            "permissionName": "use_voice_activation",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "deafen_members",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "mute_members",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "move_members",
+                            "allow": true
+                        }
+                    ]
+                }
+            ],
+            "categoryName": "Tournament Day"
+        },
+        {
+            "name": "Room 2",
+            "position": 2,
+            "bitrate": 64000,
+            "user_limit": 0,
+            "permissions": [
+                {
+                    "roleName": "@everyone",
+                    "permissions": [
+                        {
+                            "permissionName": "connect",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "use_voice_activation",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "deafen_members",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "speak",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "mute_members",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "read_messages",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "send_messages",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "move_members",
+                            "allow": false
+                        }
+                    ]
+                },
+                {
+                    "roleName": "Competitor",
+                    "permissions": [
+                        {
+                            "permissionName": "connect",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "use_voice_activation",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "speak",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "send_messages",
+                            "allow": true
+                        }
+                    ]
+                },
+                {
+                    "roleName": "Can Assign Staff and Map-Pool",
+                    "permissions": []
+                },
+                {
+                    "roleName": "Coordinator",
+                    "permissions": [
+                        {
+                            "permissionName": "use_voice_activation",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "deafen_members",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "mute_members",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "move_members",
+                            "allow": true
+                        }
+                    ]
+                }
+            ],
+            "categoryName": "Tournament Day"
+        },
+        {
+            "name": "Room 3",
+            "position": 3,
+            "bitrate": 64000,
+            "user_limit": 0,
+            "permissions": [
+                {
+                    "roleName": "@everyone",
+                    "permissions": [
+                        {
+                            "permissionName": "connect",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "use_voice_activation",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "deafen_members",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "speak",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "mute_members",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "read_messages",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "send_messages",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "move_members",
+                            "allow": false
+                        }
+                    ]
+                },
+                {
+                    "roleName": "Competitor",
+                    "permissions": [
+                        {
+                            "permissionName": "connect",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "use_voice_activation",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "speak",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "send_messages",
+                            "allow": true
+                        }
+                    ]
+                },
+                {
+                    "roleName": "Can Assign Staff and Map-Pool",
+                    "permissions": []
+                },
+                {
+                    "roleName": "Coordinator",
+                    "permissions": [
+                        {
+                            "permissionName": "use_voice_activation",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "deafen_members",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "mute_members",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "move_members",
+                            "allow": true
+                        }
+                    ]
+                }
+            ],
+            "categoryName": "Tournament Day"
+        },
+        {
+            "name": "Room 4",
+            "position": 4,
+            "bitrate": 64000,
+            "user_limit": 0,
+            "permissions": [
+                {
+                    "roleName": "@everyone",
+                    "permissions": [
+                        {
+                            "permissionName": "connect",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "use_voice_activation",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "deafen_members",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "speak",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "mute_members",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "read_messages",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "send_messages",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "move_members",
+                            "allow": false
+                        }
+                    ]
+                },
+                {
+                    "roleName": "Competitor",
+                    "permissions": [
+                        {
+                            "permissionName": "connect",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "use_voice_activation",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "speak",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "send_messages",
+                            "allow": true
+                        }
+                    ]
+                },
+                {
+                    "roleName": "Can Assign Staff and Map-Pool",
+                    "permissions": []
+                },
+                {
+                    "roleName": "Coordinator",
+                    "permissions": [
+                        {
+                            "permissionName": "use_voice_activation",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "deafen_members",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "mute_members",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "move_members",
+                            "allow": true
+                        }
+                    ]
+                }
+            ],
+            "categoryName": "Tournament Day"
+        },
+        {
+            "name": "Room 5",
+            "position": 5,
+            "bitrate": 64000,
+            "user_limit": 0,
+            "permissions": [
+                {
+                    "roleName": "@everyone",
+                    "permissions": [
+                        {
+                            "permissionName": "connect",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "use_voice_activation",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "deafen_members",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "speak",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "mute_members",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "read_messages",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "send_messages",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "move_members",
+                            "allow": false
+                        }
+                    ]
+                },
+                {
+                    "roleName": "Competitor",
+                    "permissions": [
+                        {
+                            "permissionName": "connect",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "use_voice_activation",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "speak",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "send_messages",
+                            "allow": true
+                        }
+                    ]
+                },
+                {
+                    "roleName": "Can Assign Staff and Map-Pool",
+                    "permissions": []
+                },
+                {
+                    "roleName": "Coordinator",
+                    "permissions": [
+                        {
+                            "permissionName": "use_voice_activation",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "deafen_members",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "mute_members",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "move_members",
+                            "allow": true
+                        }
+                    ]
+                }
+            ],
+            "categoryName": "Tournament Day"
+        },
+        {
+            "name": "Room 6",
+            "position": 6,
+            "bitrate": 64000,
+            "user_limit": 0,
+            "permissions": [
+                {
+                    "roleName": "@everyone",
+                    "permissions": [
+                        {
+                            "permissionName": "connect",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "use_voice_activation",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "deafen_members",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "speak",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "mute_members",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "read_messages",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "send_messages",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "move_members",
+                            "allow": false
+                        }
+                    ]
+                },
+                {
+                    "roleName": "Competitor",
+                    "permissions": [
+                        {
+                            "permissionName": "connect",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "use_voice_activation",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "speak",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "send_messages",
+                            "allow": true
+                        }
+                    ]
+                },
+                {
+                    "roleName": "Can Assign Staff and Map-Pool",
+                    "permissions": []
+                },
+                {
+                    "roleName": "Coordinator",
+                    "permissions": [
+                        {
+                            "permissionName": "use_voice_activation",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "deafen_members",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "mute_members",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "move_members",
+                            "allow": true
+                        }
+                    ]
+                }
+            ],
+            "categoryName": "Tournament Day"
+        },
+        {
+            "name": "Room 7",
+            "position": 7,
+            "bitrate": 64000,
+            "user_limit": 0,
+            "permissions": [
+                {
+                    "roleName": "@everyone",
+                    "permissions": [
+                        {
+                            "permissionName": "connect",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "use_voice_activation",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "deafen_members",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "speak",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "mute_members",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "read_messages",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "send_messages",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "move_members",
+                            "allow": false
+                        }
+                    ]
+                },
+                {
+                    "roleName": "Competitor",
+                    "permissions": [
+                        {
+                            "permissionName": "connect",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "use_voice_activation",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "speak",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "send_messages",
+                            "allow": true
+                        }
+                    ]
+                },
+                {
+                    "roleName": "Can Assign Staff and Map-Pool",
+                    "permissions": []
+                },
+                {
+                    "roleName": "Coordinator",
+                    "permissions": [
+                        {
+                            "permissionName": "use_voice_activation",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "deafen_members",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "mute_members",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "move_members",
+                            "allow": true
+                        }
+                    ]
+                }
+            ],
+            "categoryName": "Tournament Day"
+        },
+        {
+            "name": "Room 8",
+            "position": 8,
+            "bitrate": 64000,
+            "user_limit": 0,
+            "permissions": [
+                {
+                    "roleName": "@everyone",
+                    "permissions": [
+                        {
+                            "permissionName": "connect",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "use_voice_activation",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "deafen_members",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "speak",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "mute_members",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "read_messages",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "send_messages",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "move_members",
+                            "allow": false
+                        }
+                    ]
+                },
+                {
+                    "roleName": "Competitor",
+                    "permissions": [
+                        {
+                            "permissionName": "connect",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "use_voice_activation",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "speak",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "send_messages",
+                            "allow": true
+                        }
+                    ]
+                },
+                {
+                    "roleName": "Can Assign Staff and Map-Pool",
+                    "permissions": []
+                },
+                {
+                    "roleName": "Coordinator",
+                    "permissions": [
+                        {
+                            "permissionName": "use_voice_activation",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "deafen_members",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "mute_members",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "move_members",
+                            "allow": true
+                        }
+                    ]
+                }
+            ],
+            "categoryName": "Tournament Day"
+        }
+    ]
+}

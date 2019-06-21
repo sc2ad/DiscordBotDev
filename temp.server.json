@@ -1,0 +1,691 @@
+{
+    "serverName": "My Discord Server",
+    "roles": [
+        {
+            "name": "@everyone",
+            "permissions": [
+                {
+                    "permissionName": "add_reactions",
+                    "allow": true
+                },
+                {
+                    "permissionName": "administrator",
+                    "allow": false
+                },
+                {
+                    "permissionName": "attach_files",
+                    "allow": true
+                },
+                {
+                    "permissionName": "ban_members",
+                    "allow": false
+                },
+                {
+                    "permissionName": "change_nickname",
+                    "allow": true
+                },
+                {
+                    "permissionName": "connect",
+                    "allow": true
+                },
+                {
+                    "permissionName": "create_instant_invite",
+                    "allow": true
+                },
+                {
+                    "permissionName": "deafen_members",
+                    "allow": false
+                },
+                {
+                    "permissionName": "embed_links",
+                    "allow": true
+                },
+                {
+                    "permissionName": "external_emojis",
+                    "allow": true
+                },
+                {
+                    "permissionName": "kick_members",
+                    "allow": false
+                },
+                {
+                    "permissionName": "manage_channels",
+                    "allow": false
+                },
+                {
+                    "permissionName": "manage_emojis",
+                    "allow": false
+                },
+                {
+                    "permissionName": "manage_guild",
+                    "allow": false
+                },
+                {
+                    "permissionName": "manage_messages",
+                    "allow": false
+                },
+                {
+                    "permissionName": "manage_nicknames",
+                    "allow": false
+                },
+                {
+                    "permissionName": "manage_roles",
+                    "allow": false
+                },
+                {
+                    "permissionName": "manage_webhooks",
+                    "allow": false
+                },
+                {
+                    "permissionName": "mention_everyone",
+                    "allow": true
+                },
+                {
+                    "permissionName": "move_members",
+                    "allow": false
+                },
+                {
+                    "permissionName": "mute_members",
+                    "allow": false
+                },
+                {
+                    "permissionName": "priority_speaker",
+                    "allow": false
+                },
+                {
+                    "permissionName": "read_message_history",
+                    "allow": true
+                },
+                {
+                    "permissionName": "read_messages",
+                    "allow": true
+                },
+                {
+                    "permissionName": "send_messages",
+                    "allow": true
+                },
+                {
+                    "permissionName": "send_tts_messages",
+                    "allow": true
+                },
+                {
+                    "permissionName": "speak",
+                    "allow": true
+                },
+                {
+                    "permissionName": "stream",
+                    "allow": true
+                },
+                {
+                    "permissionName": "use_voice_activation",
+                    "allow": true
+                },
+                {
+                    "permissionName": "view_audit_log",
+                    "allow": false
+                }
+            ],
+            "settings": {
+                "color": [
+                    0,
+                    0,
+                    0
+                ],
+                "mention": false,
+                "displaySeparate": false
+            }
+        },
+        {
+            "name": "God Dev",
+            "permissions": [
+                {
+                    "permissionName": "add_reactions",
+                    "allow": true
+                },
+                {
+                    "permissionName": "administrator",
+                    "allow": true
+                },
+                {
+                    "permissionName": "attach_files",
+                    "allow": true
+                },
+                {
+                    "permissionName": "ban_members",
+                    "allow": true
+                },
+                {
+                    "permissionName": "change_nickname",
+                    "allow": true
+                },
+                {
+                    "permissionName": "connect",
+                    "allow": true
+                },
+                {
+                    "permissionName": "create_instant_invite",
+                    "allow": true
+                },
+                {
+                    "permissionName": "deafen_members",
+                    "allow": true
+                },
+                {
+                    "permissionName": "embed_links",
+                    "allow": true
+                },
+                {
+                    "permissionName": "external_emojis",
+                    "allow": true
+                },
+                {
+                    "permissionName": "kick_members",
+                    "allow": true
+                },
+                {
+                    "permissionName": "manage_channels",
+                    "allow": true
+                },
+                {
+                    "permissionName": "manage_emojis",
+                    "allow": true
+                },
+                {
+                    "permissionName": "manage_guild",
+                    "allow": true
+                },
+                {
+                    "permissionName": "manage_messages",
+                    "allow": true
+                },
+                {
+                    "permissionName": "manage_nicknames",
+                    "allow": true
+                },
+                {
+                    "permissionName": "manage_roles",
+                    "allow": true
+                },
+                {
+                    "permissionName": "manage_webhooks",
+                    "allow": true
+                },
+                {
+                    "permissionName": "mention_everyone",
+                    "allow": true
+                },
+                {
+                    "permissionName": "move_members",
+                    "allow": true
+                },
+                {
+                    "permissionName": "mute_members",
+                    "allow": true
+                },
+                {
+                    "permissionName": "priority_speaker",
+                    "allow": false
+                },
+                {
+                    "permissionName": "read_message_history",
+                    "allow": true
+                },
+                {
+                    "permissionName": "read_messages",
+                    "allow": true
+                },
+                {
+                    "permissionName": "send_messages",
+                    "allow": true
+                },
+                {
+                    "permissionName": "send_tts_messages",
+                    "allow": true
+                },
+                {
+                    "permissionName": "speak",
+                    "allow": true
+                },
+                {
+                    "permissionName": "stream",
+                    "allow": true
+                },
+                {
+                    "permissionName": "use_voice_activation",
+                    "allow": true
+                },
+                {
+                    "permissionName": "view_audit_log",
+                    "allow": true
+                }
+            ],
+            "settings": {
+                "color": [
+                    228,
+                    180,
+                    0
+                ],
+                "mention": false,
+                "displaySeparate": true
+            }
+        },
+        {
+            "name": "Owner",
+            "permissions": [
+                {
+                    "permissionName": "add_reactions",
+                    "allow": true
+                },
+                {
+                    "permissionName": "administrator",
+                    "allow": true
+                },
+                {
+                    "permissionName": "attach_files",
+                    "allow": true
+                },
+                {
+                    "permissionName": "ban_members",
+                    "allow": true
+                },
+                {
+                    "permissionName": "change_nickname",
+                    "allow": true
+                },
+                {
+                    "permissionName": "connect",
+                    "allow": true
+                },
+                {
+                    "permissionName": "create_instant_invite",
+                    "allow": true
+                },
+                {
+                    "permissionName": "deafen_members",
+                    "allow": true
+                },
+                {
+                    "permissionName": "embed_links",
+                    "allow": true
+                },
+                {
+                    "permissionName": "external_emojis",
+                    "allow": true
+                },
+                {
+                    "permissionName": "kick_members",
+                    "allow": true
+                },
+                {
+                    "permissionName": "manage_channels",
+                    "allow": true
+                },
+                {
+                    "permissionName": "manage_emojis",
+                    "allow": true
+                },
+                {
+                    "permissionName": "manage_guild",
+                    "allow": true
+                },
+                {
+                    "permissionName": "manage_messages",
+                    "allow": true
+                },
+                {
+                    "permissionName": "manage_nicknames",
+                    "allow": true
+                },
+                {
+                    "permissionName": "manage_roles",
+                    "allow": true
+                },
+                {
+                    "permissionName": "manage_webhooks",
+                    "allow": true
+                },
+                {
+                    "permissionName": "mention_everyone",
+                    "allow": true
+                },
+                {
+                    "permissionName": "move_members",
+                    "allow": true
+                },
+                {
+                    "permissionName": "mute_members",
+                    "allow": true
+                },
+                {
+                    "permissionName": "priority_speaker",
+                    "allow": true
+                },
+                {
+                    "permissionName": "read_message_history",
+                    "allow": true
+                },
+                {
+                    "permissionName": "read_messages",
+                    "allow": true
+                },
+                {
+                    "permissionName": "send_messages",
+                    "allow": true
+                },
+                {
+                    "permissionName": "send_tts_messages",
+                    "allow": true
+                },
+                {
+                    "permissionName": "speak",
+                    "allow": true
+                },
+                {
+                    "permissionName": "stream",
+                    "allow": true
+                },
+                {
+                    "permissionName": "use_voice_activation",
+                    "allow": true
+                },
+                {
+                    "permissionName": "view_audit_log",
+                    "allow": true
+                }
+            ],
+            "settings": {
+                "color": [
+                    248,
+                    99,
+                    228
+                ],
+                "mention": false,
+                "displaySeparate": true
+            }
+        },
+        {
+            "name": "BotDev",
+            "permissions": [
+                {
+                    "permissionName": "add_reactions",
+                    "allow": false
+                },
+                {
+                    "permissionName": "administrator",
+                    "allow": true
+                },
+                {
+                    "permissionName": "attach_files",
+                    "allow": false
+                },
+                {
+                    "permissionName": "ban_members",
+                    "allow": false
+                },
+                {
+                    "permissionName": "change_nickname",
+                    "allow": false
+                },
+                {
+                    "permissionName": "connect",
+                    "allow": false
+                },
+                {
+                    "permissionName": "create_instant_invite",
+                    "allow": false
+                },
+                {
+                    "permissionName": "deafen_members",
+                    "allow": false
+                },
+                {
+                    "permissionName": "embed_links",
+                    "allow": false
+                },
+                {
+                    "permissionName": "external_emojis",
+                    "allow": false
+                },
+                {
+                    "permissionName": "kick_members",
+                    "allow": false
+                },
+                {
+                    "permissionName": "manage_channels",
+                    "allow": false
+                },
+                {
+                    "permissionName": "manage_emojis",
+                    "allow": false
+                },
+                {
+                    "permissionName": "manage_guild",
+                    "allow": false
+                },
+                {
+                    "permissionName": "manage_messages",
+                    "allow": false
+                },
+                {
+                    "permissionName": "manage_nicknames",
+                    "allow": false
+                },
+                {
+                    "permissionName": "manage_roles",
+                    "allow": false
+                },
+                {
+                    "permissionName": "manage_webhooks",
+                    "allow": false
+                },
+                {
+                    "permissionName": "mention_everyone",
+                    "allow": false
+                },
+                {
+                    "permissionName": "move_members",
+                    "allow": false
+                },
+                {
+                    "permissionName": "mute_members",
+                    "allow": false
+                },
+                {
+                    "permissionName": "priority_speaker",
+                    "allow": false
+                },
+                {
+                    "permissionName": "read_message_history",
+                    "allow": false
+                },
+                {
+                    "permissionName": "read_messages",
+                    "allow": false
+                },
+                {
+                    "permissionName": "send_messages",
+                    "allow": false
+                },
+                {
+                    "permissionName": "send_tts_messages",
+                    "allow": false
+                },
+                {
+                    "permissionName": "speak",
+                    "allow": false
+                },
+                {
+                    "permissionName": "stream",
+                    "allow": false
+                },
+                {
+                    "permissionName": "use_voice_activation",
+                    "allow": false
+                },
+                {
+                    "permissionName": "view_audit_log",
+                    "allow": false
+                }
+            ],
+            "settings": {
+                "color": [
+                    0,
+                    0,
+                    0
+                ],
+                "mention": false,
+                "displaySeparate": true
+            }
+        }
+    ],
+    "categories": [
+        {
+            "name": "Text Channels",
+            "type": "category",
+            "nsfw": false,
+            "permissions": []
+        },
+        {
+            "name": "my secret cat",
+            "type": "category",
+            "nsfw": false,
+            "permissions": [
+                {
+                    "roleName": "@everyone",
+                    "permissions": [
+                        {
+                            "permissionName": "connect",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "read_messages",
+                            "allow": false
+                        }
+                    ]
+                },
+                {
+                    "roleName": "Owner",
+                    "permissions": [
+                        {
+                            "permissionName": "connect",
+                            "allow": true
+                        },
+                        {
+                            "permissionName": "read_messages",
+                            "allow": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "my cat",
+            "type": "category",
+            "nsfw": false,
+            "permissions": []
+        }
+    ],
+    "textChannels": [
+        {
+            "name": "general",
+            "topic": null,
+            "position": 0,
+            "nsfw": false,
+            "slowmode_delay": 0,
+            "permissions": [
+                {
+                    "roleName": "@everyone",
+                    "permissions": [
+                        {
+                            "permissionName": "send_messages",
+                            "allow": false
+                        },
+                        {
+                            "permissionName": "manage_channels",
+                            "allow": false
+                        }
+                    ]
+                }
+            ],
+            "categoryName": "Text Channels"
+        },
+        {
+            "name": "reee",
+            "topic": null,
+            "position": 1,
+            "nsfw": false,
+            "slowmode_delay": 0,
+            "permissions": [],
+            "categoryName": "Text Channels"
+        },
+        {
+            "name": "reee1",
+            "topic": null,
+            "position": 2,
+            "nsfw": false,
+            "slowmode_delay": 0,
+            "permissions": [],
+            "categoryName": "Text Channels"
+        },
+        {
+            "name": "sicc",
+            "topic": null,
+            "position": 3,
+            "nsfw": false,
+            "slowmode_delay": 0,
+            "permissions": [
+                {
+                    "roleName": "@everyone",
+                    "permissions": [
+                        {
+                            "permissionName": "read_messages",
+                            "allow": false
+                        }
+                    ]
+                },
+                {
+                    "roleName": "Owner",
+                    "permissions": [
+                        {
+                            "permissionName": "read_messages",
+                            "allow": true
+                        }
+                    ]
+                }
+            ],
+            "categoryName": "Text Channels"
+        },
+        {
+            "name": "it-has-things",
+            "topic": null,
+            "position": 4,
+            "nsfw": false,
+            "slowmode_delay": 0,
+            "permissions": [],
+            "categoryName": "my cat"
+        }
+    ],
+    "voiceChannels": [
+        {
+            "name": "General",
+            "position": 0,
+            "bitrate": 64000,
+            "user_limit": 0,
+            "permissions": [
+                {
+                    "roleName": "Owner",
+                    "permissions": []
+                }
+            ],
+            "categoryName": null
+        },
+        {
+            "name": "ahhh",
+            "position": 1,
+            "bitrate": 64000,
+            "user_limit": 0,
+            "permissions": [],
+            "categoryName": "my secret cat"
+        }
+    ]
+}

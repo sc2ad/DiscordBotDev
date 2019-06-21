@@ -1,0 +1,381 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "",
+    "title": "Server Template Config",
+    "description": "The config for a server template",
+    "type": "object",
+    "properties": {
+        "serverName": {
+            "title": "Server Name",
+            "type": "string",
+            "default": "Placeholder",
+            "description": "The name for the server"
+        },
+        "roles": {
+            "title": "Roles",
+            "type": "array",
+            "description": "The roles to create on the server",
+            "items": {
+                "title": "Role",
+                "type": "object",
+                "description": "A particular role",
+                "properties": {
+                    "name": {
+                        "title": "Name",
+                        "type": "string",
+                        "description": "The name of the role"
+                    },
+                    "permissions": {
+                        "title": "Permissions",
+                        "type": "array",
+                        "description": "A list of permissions to explicitly allow or disallow for the given role",
+                        "items": {
+                            "title": "Permission",
+                            "type": "object",
+                            "description": "A particular permission",
+                            "properties": {
+                                "permissionName": {
+                                    "title": "Permission Name",
+                                    "type": "string",
+                                    "description": "The name of the permission"
+                                },
+                                "allow": {
+                                    "title": "Allow",
+                                    "type": "boolean",
+                                    "description": "Whether to allow or disallow this permission"
+                                }
+                            },
+                            "required": [
+                                "permissionName",
+                                "allow"
+                            ]
+                        }
+                    },
+                    "settings": {
+                        "title": "Settings",
+                        "type": "object",
+                        "description": "Settings for this role",
+                        "properties": {
+                            "color": {
+                                "title": "Color",
+                                "type": "array",
+                                "description": "The color for the role (in HTML Hex)",
+                                "minItems": 3,
+                                "maxItems": 3,
+                                "items": {
+                                    "title": "Color argument",
+                                    "type": "number",
+                                    "description": "An RGB value for a color"
+                                }
+                            },
+                            "displaySeparate": {
+                                "title": "Display Role Separately",
+                                "type": "boolean",
+                                "description": "Display this role separately from others"
+                            },
+                            "mention": {
+                                "title": "Allow Mentions",
+                                "type": "boolean",
+                                "description": "Allow anyone to mention this role"
+                            }
+                        },
+                        "required": [
+                            "color",
+                            "displaySeparate",
+                            "mention"
+                        ]
+                    }
+                },
+                "required": [
+                    "name",
+                    "permissions",
+                    "settings"
+                ]
+            }
+        },
+        "categories": {
+            "title": "Categories",
+            "type": "array",
+            "description": "The categories to add to the server",
+            "items": {
+                "title": "Category",
+                "type": "object",
+                "description": "A particular category",
+                "properties": {
+                    "name": {
+                        "title": "Name",
+                        "type": "string",
+                        "description": "The name of the category"
+                    },
+                    "type": {
+                        "title": "Type",
+                        "type": "string",
+                        "description": "The CategoryType of the category"
+                    },
+                    "nsfw": {
+                        "title": "NSFW",
+                        "type": "boolean",
+                        "description": "Is the category NSFW?"
+                    },
+                    "permissions": {
+                        "title": "Category Permissions",
+                        "type": "array",
+                        "description": "A list of permissions to enforce on this category",
+                        "items": {
+                            "title": "Category Permission",
+                            "type": "object",
+                            "description": "A particular permission for this category",
+                            "properties": {
+                                "roleName": {
+                                    "title": "Role Name",
+                                    "type": "string",
+                                    "description": "The role name to use for the permission"
+                                },
+                                "permissions": {
+                                    "title": "Category Role Permissions",
+                                    "type": "array",
+                                    "description": "The permissions for a particular role in this category",
+                                    "items": {
+                                        "title": "Category Role Permission",
+                                        "type": "object",
+                                        "description": "A particular permission for this role for this category",
+                                        "properties": {
+                                            "permissionName": {
+                                                "title": "Permission Name",
+                                                "type": "string",
+                                                "description": "The name of the permission"
+                                            },
+                                            "allow": {
+                                                "title": "Allow",
+                                                "type": "boolean",
+                                                "description": "Whether to allow this particular role's permission or not"
+                                            }
+                                        },
+                                        "required": [
+                                            "permissionName",
+                                            "allow"
+                                        ]
+                                    }
+                                }
+                            },
+                            "required": [
+                                "roleName",
+                                "permissions"
+                            ]
+                        }
+                    }
+                },
+                "required": [
+                    "name",
+                    "type",
+                    "nsfw",
+                    "permissions"
+                ]
+            }
+        },
+        "textChannels": {
+            "title": "Text Channels",
+            "type": "array",
+            "description": "The text channels to add to the server",
+            "items": {
+                "title": "Text Channel",
+                "type": "object",
+                "description": "A particular text channel",
+                "properties": {
+                    "name": {
+                        "title": "Name",
+                        "type": "string",
+                        "description": "The name of the text channel"
+                    },
+                    "topic": {
+                        "title": "Name",
+                        "type": ["string", "null"],
+                        "default": null,
+                        "description": "The topic of the channel"
+                    },
+                    "position": {
+                        "title": "Position",
+                        "type": "integer",
+                        "default": 0,
+                        "description": "The position of the channel"
+                    },
+                    "nsfw": {
+                        "title": "NSFW",
+                        "type": "boolean",
+                        "default": "false",
+                        "description": "Is the channel NSFW?"
+                    },
+                    "slowmode_delay": {
+                        "title": "Slowmode Delay",
+                        "type": "number",
+                        "default": 0,
+                        "description": "The slow mode delay"
+                    },
+                    "permissions": {
+                        "title": "Text Channel Permissions",
+                        "type": "array",
+                        "description": "A list of permissions to enforce on this text channel",
+                        "items": {
+                            "title": "Text Channel Permission",
+                            "type": "object",
+                            "description": "A particular permission for this text channel",
+                            "properties": {
+                                "roleName": {
+                                    "title": "Role Name",
+                                    "type": "string",
+                                    "description": "The role name to use for the permission"
+                                },
+                                "permissions": {
+                                    "title": "Text Channel Role Permissions",
+                                    "type": "array",
+                                    "description": "The permissions for a particular role in this text channel",
+                                    "items": {
+                                        "title": "Text Channel Role Permission",
+                                        "type": "object",
+                                        "description": "A particular permission for this role for this text channel",
+                                        "properties": {
+                                            "permissionName": {
+                                                "title": "Permission Name",
+                                                "type": "string",
+                                                "description": "The name of the permission"
+                                            },
+                                            "allow": {
+                                                "title": "Allow",
+                                                "type": "boolean",
+                                                "description": "Whether to allow this particular role's permission or not"
+                                            }
+                                        },
+                                        "required": [
+                                            "permissionName",
+                                            "allow"
+                                        ]
+                                    }
+                                }
+                            },
+                            "required": [
+                                "roleName",
+                                "permissions"
+                            ]
+                        }
+                    },
+                    "categoryName": {
+                        "title": "Category Name",
+                        "type": ["string", "null"],
+                        "description": "The category name"
+                    }
+                },
+                "required": [
+                    "name",
+                    "topic",
+                    "position",
+                    "nsfw",
+                    "slowmode_delay",
+                    "permissions",
+                    "categoryName"
+                ]
+            }
+        },
+        "voiceChannels": {
+            "title": "Voice Channels",
+            "type": "array",
+            "description": "The voice channels to add to the server",
+            "items": {
+                "title": "Voice Channel",
+                "type": "object",
+                "description": "A particular voice channel",
+                "properties": {
+                    "name": {
+                        "title": "Name",
+                        "type": "string",
+                        "description": "The name of the voice channel"
+                    },
+                    "position": {
+                        "title": "Position",
+                        "type": "integer",
+                        "default": 0,
+                        "description": "The position of the voice channel"
+                    },
+                    "bitrate": {
+                        "title": "Bitrate",
+                        "type": "integer",
+                        "default": 64000,
+                        "description": "The bitrate of the voice channel"
+                    },
+                    "user_limit": {
+                        "title": "User limit",
+                        "type": "integer",
+                        "default": 0,
+                        "description": "The user limit of the voice channel"
+                    },
+                    "permissions": {
+                        "title": "Voice Channel Permissions",
+                        "type": "array",
+                        "description": "A list of permissions to enforce on this voice channel",
+                        "items": {
+                            "title": "Voice Channel Permission",
+                            "type": "object",
+                            "description": "A particular permission for this voice channel",
+                            "properties": {
+                                "roleName": {
+                                    "title": "Role Name",
+                                    "type": "string",
+                                    "description": "The role name to use for the permission"
+                                },
+                                "permissions": {
+                                    "title": "Voice Channel Role Permissions",
+                                    "type": "array",
+                                    "description": "The permissions for a particular role in this voice channel",
+                                    "items": {
+                                        "title": "Voice Channel Role Permission",
+                                        "type": "object",
+                                        "description": "A particular permission for this role for this voice channel",
+                                        "properties": {
+                                            "permissionName": {
+                                                "title": "Permission Name",
+                                                "type": "string",
+                                                "description": "The name of the permission"
+                                            },
+                                            "allow": {
+                                                "title": "Allow",
+                                                "type": "boolean",
+                                                "description": "Whether to allow this particular role's permission or not"
+                                            }
+                                        },
+                                        "required": [
+                                            "permissionName",
+                                            "allow"
+                                        ]
+                                    }
+                                }
+                            },
+                            "required": [
+                                "roleName",
+                                "permissions"
+                            ]
+                        }
+                    },
+                    "categoryName": {
+                        "title": "Category Name",
+                        "type": ["string", "null"],
+                        "description": "The category name"
+                    }
+                },
+                "required": [
+                    "name",
+                    "position",
+                    "bitrate",
+                    "user_limit",
+                    "permissions",
+                    "categoryName"
+                ]
+            }
+        }
+    },
+    "required": [
+        "serverName",
+        "roles",
+        "categories",
+        "textChannels",
+        "voiceChannels"
+    ]
+}

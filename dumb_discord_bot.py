@@ -38,20 +38,26 @@ async def on_message(message):
         else:
             await channel.send(message.author.name + ' does not have access to macros. feelssadman :(')
     if message.content.startswith("!save-template"):
-        path = message.content.split(" ")[1]
-        if not path.endswith(".server.json"):
-            lst = path.split(".")
-            lst = lst[:len(lst) - 1]
-            path = ".".join(lst)
-            path += ".server.json"
-        with open(path, 'w') as fp:
-            json.dump(template_server_serializer.getServerJson(message.guild), fp, indent=4)
-        await message.channel.send("Saved template to file: " + path)
+        if verifier.verifyMacroUser(message.author.id, message.author.roles):
+            path = message.content.split(" ")[1]
+            if not path.endswith(".server.json"):
+                lst = path.split(".")
+                lst = lst[:len(lst) - 1]
+                path = ".".join(lst)
+                path += ".server.json"
+            with open(path, 'w') as fp:
+                json.dump(template_server_serializer.getServerJson(message.guild), fp, indent=4)
+            await message.channel.send("Saved template to file: " + path)
+        else:
+            await channel.send(message.author.name + ' does not have access to macros. feelssadman :(')
     if message.content.startswith("!load-template"):
-        path = message.content.split(" ")[1]
-        serverJSON = validator.load(path, "template_server_schema.json")
-        await(template_server_deserializer.writeServer(message.guild, serverJSON))
-        await(message.channel.send("Wrote template from: " + path + " to current server!"))
+        if verifier.verifyMacroUser(message.author.id, message.author.roles):
+            path = message.content.split(" ")[1]
+            serverJSON = validator.load(path, "template_server_schema.json")
+            await(template_server_deserializer.writeServer(message.guild, serverJSON))
+            await(message.channel.send("Wrote template from: " + path + " to current server!"))
+        else:
+            await channel.send(message.author.name + ' does not have access to macros. feelssadman :(')
 
 if __name__ == "__main__":
     with open("discord.key", "r") as f:

@@ -6,6 +6,18 @@
                 "/*.server.json"
             ],
             "url": "./template_server_schema.json"
+        },
+        {
+            "fileMatch": [
+                "/*.permissions.json"
+            ],
+            "url": "./command_permissions_schema.json"
+        },
+        {
+            "fileMatch": [
+                "/*.bot_config.json"
+            ],
+            "url": "./bot_config_schema.json"
         }
     ]
 }

@@ -1,0 +1,84 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "",
+    "title": "Command Access Permissions",
+    "description": "The config for command permissions",
+    "type": "object",
+    "properties": {
+        "users": {
+            "title": "Users",
+            "type": "array",
+            "description": "The users who have command access",
+            "items": {
+                "title": "User",
+                "type": "object",
+                "description": "The user object who may or many not have command access",
+                "properties": {
+                    "name": {
+                        "title": "Name",
+                        "type": "string",
+                        "description": "The name of the user"
+                    },
+                    "id": {
+                        "title": "User ID",
+                        "type": "integer",
+                        "description": "The ID of the user",
+                        "minimum": 100000000000000000
+                    },
+                    "commands": {
+                        "title": "Commands",
+                        "type": "array",
+                        "description": "Commands to allow or deny",
+                        "items": {
+                            "title": "Command",
+                            "type": "object",
+                            "description": "A command to allow or deny",
+                            "properties": {
+                                "ID": {
+                                    "title": "ID",
+                                    "type": "string",
+                                    "description": "The command ID to allow or deny for this user"
+                                },
+                                "allow": {
+                                    "title": "Allow",
+                                    "type": "boolean",
+                                    "description": "To allow or deny the command for this user"
+                                }
+                            },
+                            "required": [
+                                "ID",
+                                "allow"
+                            ]
+                        }
+                    }
+                },
+                "required": [
+                    "name",
+                    "id",
+                    "commands"
+                ]
+            }
+        },
+        "roles": {
+            "title": "Roles",
+            "type": "array",
+            "description": "The roles who have macro access",
+            "items": {
+                "title": "Role",
+                "type": "object",
+                "description": "The role object to grant macro access to",
+                "properties": {
+                    "name": {
+                        "title": "Name",
+                        "type": "string",
+                        "description": "The name of the role"
+                    }
+                }
+            }
+        }
+    },
+    "required": [
+        "users",
+        "roles"
+    ]
+}

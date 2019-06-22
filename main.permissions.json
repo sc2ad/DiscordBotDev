@@ -1,0 +1,71 @@
+{
+    "users": [
+        {
+            "name": "trueavid",
+            "commands": [
+                {
+                    "ID": "hot_macro",
+                    "allow": true
+                },
+                {
+                    "ID": "addPermissions_command",
+                    "allow": false
+                },
+                {
+                    "ID": "save-template_command",
+                    "allow": true
+                },
+                {
+                    "ID": "load-template_command",
+                    "allow": true
+                }
+            ],
+            "id": 337388809337438210
+        },
+        {
+            "name": "Sc2ad",
+            "commands": [
+                {
+                    "ID": "hot_macro",
+                    "allow": true
+                },
+                {
+                    "ID": "addPermissions_command",
+                    "allow": true
+                },
+                {
+                    "ID": "save-template_command",
+                    "allow": true
+                },
+                {
+                    "ID": "load-template_command",
+                    "allow": true
+                }
+            ],
+            "id": 134482734771994624
+        },
+        {
+            "name": "trueavid",
+            "id": 337388809337438210,
+            "commands": {
+                "ID": "addPermissions_command",
+                "name": "Add Permissions",
+                "type": "prefixedCommand",
+                "arguments": [
+                    {
+                        "name": "command",
+                        "type": "command"
+                    },
+                    {
+                        "name": "mentions",
+                        "type": "user"
+                    }
+                ],
+                "lastArgumentMultiple": true,
+                "help": "Allows the given user to use the provided command",
+                "usage": "addPermissions"
+            }
+        }
+    ],
+    "roles": []
+}

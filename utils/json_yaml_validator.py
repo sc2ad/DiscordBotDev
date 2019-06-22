@@ -1,6 +1,7 @@
 ## Author: Sc2ad Copyright MIT License 2019
 import json
 import argparse
+import io
 try:
     # python -m pip install jsonschema
     from jsonschema import validate
@@ -47,13 +48,38 @@ def fixTuples(data):
     return data
 
 def isJson(data):
-    return data.endswith("}") or data.endswith(".json")
+    return type(data) == dict or data.endswith("}") or data.endswith(".json")
 
 def validateData(data, schema):
     if isJson(data):
         validateJson(data, schema)
     else:
         validateYaml(data, schema)
+
+def createDirectoriesFor(path):
+    import os
+    d = os.path.split(path)[0]
+    if not d:
+        return
+    os.makedirs(d, exist_ok=True)
+
+def saveJson(js, fp):
+    assert type(js) == dict, "JSON must be a dictionary!"
+    if type(fp) == str:
+        createDirectoriesFor(fp)
+        with open(fp, 'w') as f:
+            json.dump(js, f, indent=4)
+    elif type(fp) == io.TextIOBase:
+        json.dump(js, fp, indent=4)
+
+def saveYaml(yaml, fp, loader=yaml.UnsafeLoader):
+    assert YAML, "Must install PyYAML before attempting to save YAML files!"
+    if type(fp) == str:
+        createDirectoriesFor(fp)
+        with open(fp, 'w') as f:
+            yaml.dump(yaml, f, loader=loader)
+    elif type(fp) == io.TextIOBase:
+        yaml.dump(yaml, f, loader=loader)
 
 def loadAndValidateJson(js, schema):
     """
@@ -80,6 +106,19 @@ def load(data, schema, yamlLoader=yaml.UnsafeLoader):
     if isJson(data):
         return loadAndValidateJson(data, schema)
     return loadAndValidateYaml(data, schema, yamlLoader=yamlLoader)
+
+def save(data, fp):
+    """
+    Saves the given dictionary as the given path.
+    It support either YAML or JSON writing.
+    Data must be a dictionary or a string of JSON.
+    Fp must be either a string to a path or a file object.
+    """
+    if isJson(data):
+        saveJson(data, fp)
+    else:
+        raise NotImplementedError("It is not yet supported to save YAML files!")
+        # saveYaml(data, fp)
 
 def memoize(f):
     m = {}

@@ -1,0 +1,56 @@
+{
+    "prefix": "!",
+    "commands": [
+        {
+            "ID": "hot_macro",
+            "name": "Hot Macro",
+            "type": "macro",
+            "help": "A macro that will respond to all messages containing 'hot'.",
+            "usage": "hot"
+        },
+        {
+            "ID": "addPermissions_command",
+            "name": "Add Permissions",
+            "type": "prefixedCommand",
+            "arguments": [
+                {
+                    "name": "command",
+                    "type": "command"
+                },
+                {
+                    "name": "mentions",
+                    "type": "user"
+                }
+            ],
+            "lastArgumentMultiple": true,
+            "help": "Allows the given user to use the provided command",
+            "usage": "addPermissions"
+        },
+        {
+            "ID": "save-template_command",
+            "name": "Save Template",
+            "type": "prefixedCommand",
+            "arguments": [
+                {
+                    "name": "templateFile",
+                    "type": "file.json"
+                }
+            ],
+            "help": "Saves the current server to a template",
+            "usage": "save-template"
+        },
+        {
+            "ID": "load-template_command",
+            "name": "Load Template",
+            "type": "prefixedCommand",
+            "arguments": [
+                {
+                    "name": "templateFile",
+                    "type": "existingFile.json"
+                }
+            ],
+            "help": "Loads the provided template and adds roles and channels to match",
+            "usage": "load-template"
+        }
+    ]
+}

@@ -92,6 +92,84 @@
                         "title": "Usage",
                         "type": "string",
                         "description": "The command as it should appear when being used (do not include the prefix)"
+                    },
+                    "deniedMessage": {
+                        "title": "Denied Message",
+                        "type": "string",
+                        "description": "The message to send when the user attempting to use this command does not have permission to do so"
+                    },
+                    "actions": {
+                        "title": "Actions",
+                        "type": "array",
+                        "description": "The actions for the command to do",
+                        "items": {
+                            "title": "Action",
+                            "type": "object",
+                            "description": "An action for this command to do",
+                            "properties": {
+                                "name": {
+                                    "title": "Name",
+                                    "type": "string",
+                                    "description": "The name of this command"
+                                },
+                                "pythonConditional": {
+                                    "title": "Python Conditional",
+                                    "type": "string",
+                                    "description": "The python conditional snippet of code to run"
+                                },
+                                "python": {
+                                    "title": "Python",
+                                    "type": "string",
+                                    "description": "The python snippet of code to run"
+                                },
+                                "halt": {
+                                    "title": "Halt",
+                                    "type": "boolean",
+                                    "description": "Whether to halt after this command runs or not"
+                                },
+                                "loop": {
+                                    "title": "Loop",
+                                    "type": "string",
+                                    "description": "The python snippet to loop this command for"
+                                },
+                                "nested": {
+                                    "title": "Nested Commands",
+                                    "type": "array",
+                                    "description": "Nested commands to run with loop or if statements",
+                                    "items": {
+                                        "title": "Nested Command",
+                                        "type": "string",
+                                        "description": "The commands to run"
+                                    }
+                                }
+                            },
+                            "oneOf": [
+                                {
+                                    "anyOf": [
+                                        {
+                                            "required": [
+                                                "name",
+                                                "nested",
+                                                "loop"
+                                            ]
+                                        },
+                                        {
+                                            "required": [
+                                                "name",
+                                                "nested",
+                                                "pythonConditional"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "required": [
+                                        "name",
+                                        "python"
+                                    ]
+                                }
+                            ]
+                        }
                     }
                 },
                 "if": {
@@ -111,7 +189,8 @@
                         "ID",
                         "name",
                         "type",
-                        "usage"
+                        "usage",
+                        "actions"
                     ]
                 },
                 "else": {
@@ -120,10 +199,11 @@
                         "name",
                         "type",
                         "arguments",
-                        "usage"
+                        "usage",
+                        "actions"
                     ]
                 },
-                "maxProperties": 7
+                "maxProperties": 9
             }
         }
     },

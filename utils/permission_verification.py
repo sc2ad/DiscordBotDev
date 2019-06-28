@@ -37,11 +37,13 @@ def addCommandToUser(commandID, userID, allow=True):
     for c in user['commands']:
         if c['ID'] == commandID:
             c['allow'] = allow
+            loader.save(data, PERMISSION_FILE)
             return
     user['commands'].append({
         "ID": commandID,
         "allow": allow
     })
+    loader.save(data, PERMISSION_FILE)
 
 def addRole(roleId, roleName, commands):
     data = getData()
@@ -67,7 +69,7 @@ def verifyMacroUser(command, messageUserId, messageRoles=None):
     if user:
         for c in user['commands']:
             if c['ID'] == command:
-                return True
+                return c['allow']
         # User exists but doesn't have permission for this command
     if not messageRoles:
         return False
@@ -76,7 +78,7 @@ def verifyMacroUser(command, messageUserId, messageRoles=None):
         if role:
             for c in role['commands']:
                 if c['ID'] == command:
-                    return True
+                    return c['allow']
             # Role exists, but this command is not permitted
     return False
     

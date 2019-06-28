@@ -6,7 +6,13 @@
             "name": "Hot Macro",
             "type": "macro",
             "help": "A macro that will respond to all messages containing 'hot'.",
-            "usage": "hot"
+            "usage": "hot",
+            "actions": [
+                {
+                    "name": "send",
+                    "python": "await message.channel.send('HOT STUFF IS COMING')"
+                }
+            ]
         },
         {
             "ID": "addPermissions_command",
@@ -24,7 +30,23 @@
             ],
             "lastArgumentMultiple": true,
             "help": "Allows the given user to use the provided command",
-            "usage": "addPermissions"
+            "usage": "addPermissions",
+            "actions": [
+                {
+                    "name": "failedPermCheck",
+                    "python": "await message.channel.send('You cannot give permissions to a command you do not have permissions for!')",
+                    "pythonConditional": "not permissions(args['command']['ID'], message)",
+                    "halt": true
+                },
+                {
+                    "name": "addVerifiedUsers",
+                    "loop": "for user in args['mentions']",
+                    "nested": [
+                        "verifier.addCommandToUser(user.id, user.name, args['command'])",
+                        "await message.channel.send(user.name + ' was given permissions to command: ' + args['command']['name'] + '!')"
+                    ]
+                }
+            ]
         },
         {
             "ID": "save-template_command",
@@ -37,7 +59,23 @@
                 }
             ],
             "help": "Saves the current server to a template",
-            "usage": "save-template"
+            "usage": "save-template",
+            "actions": [
+                {
+                    "name": "pathConverter",
+                    "pythonConditional": "not args['templateFile'].endswith('.server.json')",
+                    "nested": [
+                        "lst = args['templateFile']",
+                        "lst = lst[:len(lst) - 1]",
+                        "args['templateFile'] = '.'.join(lst)",
+                        "args['templateFile'] += '.server.json'"
+                    ]
+                },
+                {
+                    "name": "saveServer",
+                    "python": "validator.save(server_serializer.getServerJson(message.guild), path)"
+                }
+            ]
         },
         {
             "ID": "load-template_command",
@@ -50,7 +88,21 @@
                 }
             ],
             "help": "Loads the provided template and adds roles and channels to match",
-            "usage": "load-template"
+            "usage": "load-template",
+            "actions": [
+                {
+                    "name": "loadServer",
+                    "python": "validator.load(args['templateFile'], 'template_server_schema.json')"
+                },
+                {
+                    "name": "writeServer",
+                    "python": "await server_loader.writeServer(message.guild, performedResults['loadServer'])"
+                },
+                {
+                    "name": "sendMessage",
+                    "python": "await message.channel.send('Wrote template from: ' + args['templateFile'] + ' to current server!')"
+                }
+            ]
         }
     ]
 }

@@ -43,28 +43,6 @@
                 }
             ],
             "id": 134482734771994624
-        },
-        {
-            "name": "trueavid",
-            "id": 337388809337438210,
-            "commands": {
-                "ID": "addPermissions_command",
-                "name": "Add Permissions",
-                "type": "prefixedCommand",
-                "arguments": [
-                    {
-                        "name": "command",
-                        "type": "command"
-                    },
-                    {
-                        "name": "mentions",
-                        "type": "user"
-                    }
-                ],
-                "lastArgumentMultiple": true,
-                "help": "Allows the given user to use the provided command",
-                "usage": "addPermissions"
-            }
         }
     ],
     "roles": []
